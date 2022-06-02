@@ -1,4 +1,4 @@
-setTimeout(() => {
+function loadProductList() {
     let products_listItem =
         document.getElementsByClassName("products-listItem")[0];
     let category = window.location.href.split("=")[1];
@@ -44,4 +44,4 @@ setTimeout(() => {
     `;
         products_listItem.appendChild(product_item);
     }
-}, 1000);
+}

@@ -183,7 +183,7 @@ let productDetails = [
         },
         availability: "in stock",
         description: `<p>Ditch the laces and get outside. These kicks feature Nike's revolutionary FlyEase technology, making on-and-off a breeze. With a heel that pivots open for a totally hands-free entry, they're great for people with limited mobility—or anyone who wants a quicker way to get going.</p><ul class="description-preview__features pt8-sm pb6-sm ncss-list-ul"><li class="description-preview__color-description ncss-li">Colour Shown: Sail/White/Light Bone/Black</li><li class="description-preview__style-color ncss-li">Style: DR5540-101</li></ul>`,
-    }
+    },
 ];
 
 function formatPrice(price) {
@@ -191,8 +191,11 @@ function formatPrice(price) {
 }
 
 let contact_info = {
-    description: "Lorem ipsum dolor sit amet, consectetur ad ipis cing elit. Suspendisse at sapien mascsa. Lorem ipsum dolor sit amet, consectetur se adipiscing elit. Sed fermentum, sapien scele risque volutp at tempor, lacus est sodales massa, a hendrerit dolor slase turpis non mi.",
-    email: ["contact@michaeldesign.me","support@michaeldesign.me"],
+    description:
+        "Lorem ipsum dolor sit amet, consectetur ad ipis cing elit. Suspendisse at sapien mascsa. Lorem ipsum dolor sit amet, consectetur se adipiscing elit. Sed fermentum, sapien scele risque volutp at tempor, lacus est sodales massa, a hendrerit dolor slase turpis non mi.",
+    email: ["contact@michaeldesign.me", "support@michaeldesign.me"],
     phone: ["084. 93 668 2236", "084. 93 668 6789"],
-    address: "No.86 ChuaBoc St, DongDa Dt,<br />Hanoi, Vietnam"
-}
+    address: "No.86 ChuaBoc St, DongDa Dt,<br />Hanoi, Vietnam",
+};
+
+

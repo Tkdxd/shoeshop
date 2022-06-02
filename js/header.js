@@ -1,4 +1,4 @@
-setTimeout(() => {
+function loadUsername() {
     let username = sessionStorage.getItem("username");
     let usermenu = document.getElementsByClassName("usermenu");
 
@@ -20,4 +20,4 @@ setTimeout(() => {
                             >
                         </li>`;
     }
-}, 1000);
+}

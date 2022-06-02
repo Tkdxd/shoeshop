@@ -37,13 +37,25 @@
                                 <h3 class="title">Categories</h3>
                                 <ul>
                                     <li>
-                                        <a href="productlitst.html?category=men"> Men </a>
+                                        <a
+                                            href="productlitst.html?category=men"
+                                        >
+                                            Men
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="productlitst.html?category=women"> Women </a>
+                                        <a
+                                            href="productlitst.html?category=women"
+                                        >
+                                            Women
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="productlitst.html?category=kids"> Kids </a>
+                                        <a
+                                            href="productlitst.html?category=kids"
+                                        >
+                                            Kids
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -312,9 +324,7 @@
                                         </a>
                                     </div> -->
                                 </div>
-                                <ul class="products-listItem">
-                                   
-                                </ul>
+                                <ul class="products-listItem"></ul>
                                 <div class="toolbar">
                                     <div class="sorter bottom">
                                         <div class="view-mode">
@@ -548,5 +558,12 @@
         <script async src="js/header.js"></script>
         <script async src="js/productlist.js"></script>
         <script async src="js/option_cart.js"></script>
+        <script>
+            window.onload = function () {
+                loadProductList();
+                loadUsername();
+                update_cart();
+            }
+        </script>
     </body>
 </html>

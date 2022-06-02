@@ -33,13 +33,25 @@
                                 <h3 class="title">Categories</h3>
                                 <ul>
                                     <li>
-                                        <a href="productlitst.html?category=men"> Men </a>
+                                        <a
+                                            href="productlitst.html?category=men"
+                                        >
+                                            Men
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="productlitst.html?category=women"> Women </a>
+                                        <a
+                                            href="productlitst.html?category=women"
+                                        >
+                                            Women
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="productlitst.html?category=kids"> Kids </a>
+                                        <a
+                                            href="productlitst.html?category=kids"
+                                        >
+                                            Kids
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -384,5 +396,12 @@
         <script async src="js/header.js"></script>
         <script async src="js/productgrid.js"></script>
         <script async src="js/option_cart.js"></script>
+        <script>
+            window.onload = function () {
+                loadProductGrid();
+                loadUsername();
+                update_cart();
+            };
+        </script>
     </body>
 </html>

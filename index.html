@@ -287,8 +287,7 @@
                             </li>
                         </ul>
                     </div>
-            <div class="clearfix"></div>
-
+                    <div class="clearfix"></div>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -348,5 +347,13 @@
         <script async src="js/header.js"></script>
         <script async src="js/hot_products.js"></script>
         <script async src="js/featured_products.js"></script>
+        <script>
+            window.onload = function () {
+                loadHotProducts();
+                loadFeaturedProducts();
+                loadUsername();
+                update_cart();
+            };
+        </script>
     </body>
 </html>
