@@ -37,7 +37,7 @@ function loadFeaturedProducts() {
                                                                 class="button add-cart"
                                                                 type="button"
                                                             >
-                                                                Add To Cart</button
+                                                                Thêm vào Giỏ hàng</button
                                                             >
                                                         </div>
                                                     </div>

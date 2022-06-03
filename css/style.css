@@ -2098,7 +2098,7 @@ option {
 } /* checkout page sytle */
 .checkout-page {
     float: left;
-    width: 100%;
+    width: 50%;
     position: relative;
     clear: both;
 }
@@ -2706,6 +2706,9 @@ option {
     .caption5 {
         top: 52%;
     }
+    .promotion-banner{
+        display: none;
+    }
 }
 @media (max-width: 384px) {
     .flex-control-nav {
@@ -2873,4 +2876,5 @@ option {
     .grandtotal span {
         margin-bottom: 20px;
     }
+    
 }

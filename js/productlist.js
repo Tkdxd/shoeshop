@@ -36,7 +36,7 @@ function loadProductList() {
                                                 p.id
                                             }"
                                             onclick="add_cart(event)">
-                                                Add To Cart
+                                                Thêm vào giỏ hàng
                                             </button>
                                         </div>
                                     </div>

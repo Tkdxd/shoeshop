@@ -26,7 +26,7 @@ function loadHotProducts() {
                                                     data-id="${p.id}"
                                                     onclick="add_cart(event)"
                                                 >
-                                                    Add To Cart
+                                                    Thêm vào Giỏ hàng
                                                 </button>
                                             </div>
                                         </div>`;

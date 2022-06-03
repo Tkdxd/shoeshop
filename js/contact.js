@@ -6,7 +6,7 @@ if (contactInfo == null) {
     localStorage.setItem("contactInfo", JSON.stringify([]));
 }
 contact_infoormation.innerHTML = `
-                                    <h5>Contact Info</h5>
+                                    <h5>Thông tin liên hệ</h5>
                                     <p>
                                         ${contact_info.description}
                                     </p>
