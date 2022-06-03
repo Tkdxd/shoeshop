@@ -1,5 +1,7 @@
 function loadFeaturedProducts() {
     let featured_products_list = document.getElementById("featured");
+
+    // Lấy danh sách sản phẩm tiêu điểm từ csdl
     for (let i = 0; i < productDetails.length; i += 4) {
         let featured_products_group = document.createElement("li");
         let featured_products_group_row = document.createElement("div");
@@ -10,7 +12,11 @@ function loadFeaturedProducts() {
             featured_products_item.innerHTML = `
                                                     <div class="products">
                                                         <div class="thumbnail">
-                                                            <a href="details.html"
+                                                            <a href="details.html?id=${
+                                                                productDetails[
+                                                                    j
+                                                                ].id
+                                                            }"
                                                                 ><img
                                                                     src="${
                                                                         productDetails[

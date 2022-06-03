@@ -1,6 +1,11 @@
+// Thông tin tài khoản
 let emailAccount = "admin@gmail.com";
 let passwordAccount = "admin";
+
+// Định dạng hợp lệ của email
 let mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+// Thông tin chi tiết các sản phẩm
 let productDetails = [
     {
         id: 1,
@@ -186,10 +191,12 @@ let productDetails = [
     },
 ];
 
+// Định dạng thành tiền
 function formatPrice(price) {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+// Thông tin liên hệ
 let contact_info = {
     description:
         "Lorem ipsum dolor sit amet, consectetur ad ipis cing elit. Suspendisse at sapien mascsa. Lorem ipsum dolor sit amet, consectetur se adipiscing elit. Sed fermentum, sapien scele risque volutp at tempor, lacus est sodales massa, a hendrerit dolor slase turpis non mi.",

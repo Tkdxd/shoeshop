@@ -1,13 +1,17 @@
 function loadHotProducts() {
     let hot_products_list =
         document.getElementsByClassName("hot-products-list")[0];
+
+    // Lấy danh sách sản phẩm bán chạy từ csdl
     for (var p of productDetails) {
         let hot_products_item = document.createElement("div");
         hot_products_item.className = "col-md-3 col-sm-3";
         hot_products_item.innerHTML = `<div class="products">
                                             <div class="offer">${p.offer}</div>
                                             <div class="thumbnail">
-                                                <a href="details.html"
+                                                <a href="details.html?id=${
+                                                    p.id
+                                                }"
                                                     ><img
                                                     src="${p.images.small[0]}"
                                                     alt="Product Name"
