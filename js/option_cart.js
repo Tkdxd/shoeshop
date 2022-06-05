@@ -142,7 +142,8 @@ function total_cart() {
 function update_cart() {
     let option_cart_item =
         document.getElementsByClassName("option-cart-item")[0];
-
+    // Lấy số loại sản phẩm hiện tại trên optional_cart
+    let cart_no = document.getElementsByClassName("cart_no")[0];
     // Lấy thông tin giỏ hàng từ local storage
     let cart = JSON.parse(localStorage.getItem("cart"));
 
@@ -157,7 +158,6 @@ function update_cart() {
 
     // Kiểm tra giỏ hàng có trống hay không
     if (cart.length > 0) {
-
         // Thêm sản phẩm vào giỏ hàng
         for (let c of cart) {
             let product_item = document.createElement("li");
